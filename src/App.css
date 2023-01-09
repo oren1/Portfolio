@@ -23,15 +23,21 @@ header h4 {
 }
 
 header div.projects-container {
-  background-color: green;
-  min-width: 80vw;
+  /* background-color: green; */
+  width: 80vw;
+  margin-top: 16px;
+  display: flex;
+  justify-content:space-around;
+  /* align-items: center; */
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 div.project {
   margin: 5px;
   border: 1px solid #ccc;
   float: left;
-  width: 180px;
+  width: 46%;
 }
 
 div.project:hover {
